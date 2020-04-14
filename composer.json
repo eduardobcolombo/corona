@@ -1,0 +1,17 @@
+{
+    "name": "eduardobcolombo/corona",
+    "description": "This is a must use plugin for wordpress",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Eduardo B Colombo",
+            "email": "eduardobcolombo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Corona\\": "./src"}
+    }
+}
