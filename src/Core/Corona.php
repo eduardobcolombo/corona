@@ -29,6 +29,7 @@ class Corona extends Base
      */
     public function __construct()
     {
+        $this->register_custom_fields();
         $this->add_filters();
         $this->add_actions();
     }
@@ -60,4 +61,8 @@ class Corona extends Base
             );
         }
     }
+
+    public function register_custom_fields() {
+        Home::register_custom_fields();
+    }    
 }
